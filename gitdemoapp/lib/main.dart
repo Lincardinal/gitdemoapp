@@ -43,7 +43,7 @@ class Myhome extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        child: Column(children: [Text("Welcome"), SizedBox(height: 12), Bet()]),
+        child: Column(children: [Text("Welcome"), SizedBox(height: 12), Bet(), Text("You Know the drill"), ]),
       ),
     );
   }
